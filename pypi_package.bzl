@@ -56,7 +56,7 @@ username = $$user
 password = $$pass
 EOF
 
-HOME=`pwd` python setup.py register -r pypi
+HOME=`pwd` python ocpy/ocp/setup.py register -r pypi
 
 rm .pypirc
 """
